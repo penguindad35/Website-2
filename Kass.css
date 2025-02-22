@@ -1,0 +1,197 @@
+﻿
+* {
+    box-sizing: border-box;
+}
+html {
+    background-color: #EB854C;
+}
+.title {
+    display: flex;
+    width: 100%;
+    
+    margin: 10px;
+    padding: 10px;
+}
+
+.title-left {
+    width: 30%;
+    max-width: 350px;
+    max-height: 350px;
+    min-height: 250px;
+}
+.title-right {
+    width: 70%;
+    
+    color: gold;
+    padding: 0 10% 0 10%;
+    font-size: 5em;
+}
+#emblam {
+    background-image: url(emblam.png);
+    background-repeat: no-repeat;
+    aspect-ratio: 1/1;
+    background-size: 100% 100%;
+    border-radius: 20px 20px;
+    opacity: 0.7;
+    width: 300px;
+    height: 300px;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    padding: .5em;
+}
+nav ul {
+    list-style-type: none;
+}
+.nav a {
+    color: yellow;
+    text-decoration: none;
+    
+}
+.nav-item {
+    padding: .5em 3em 1em 3em;
+}
+
+.page-container {
+    
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0 3em 1em 3em;
+    
+    
+}
+h1{
+    color:gold;
+}
+main h1{
+    color: gold;
+    text-align: center;
+}
+h2{
+    color: white;
+}
+h3{
+    color: navy;
+
+}
+body p {
+    color: navajowhite;
+    text-indent: 2em;
+    font-size: 1.2em;
+}
+ footer{
+     color: antiquewhite;
+     text-align:center;
+     padding: 1em;
+ }
+    footer a {
+        color: mintcream;
+    }
+    .products{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 1em;
+    }
+.product-item {
+    padding: 1em;
+    border: 4px solid #F1D3B2;
+    box-shadow: #F1D3B2 6px 6px;
+    border-radius: 20px 20px;
+    margin: 2em;
+}
+#product-placeholder img{
+    background-image: url(product-placeholder.png);
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+    background-size: 100% 100%;
+    border-radius: 20px 20px;
+}
+.product-item a {
+    text-decoration: none;
+}
+.product-item  h2 a{
+    color: gold;
+}
+.product-item p a{
+    color: navajowhite;
+}
+
+
+#about-us-image {
+    background-image: url(about-us-image.png);
+    background-repeat: no-repeat;
+    aspect-ratio: 1/1;
+    background-size: 100% 100%;
+    width: 50%;
+    
+    margin: 0 25% 0 25%;
+}
+
+
+
+
+@media only screen and (max-width:64em) {
+    
+    .title {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        box-shadow: none;
+        border-radius: 0 0;
+        background-color: transparent;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .title-right {
+        
+        font-size: 2.1em;
+        background-color: transparent;
+        width: 100%;
+        text-align: center;
+    }
+   
+    .title-left {
+        width: 100%;
+    }
+    .nav {
+        justify-content: space-around;
+        flex-direction: column;
+        font-size: 1.5em;
+        
+    }
+    .nav-item {
+        border: 2px solid black;
+        box-shadow: none;
+        padding: .5em;
+        border-radius: 0 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav li:hover {
+        background-color: transparent;
+    }
+    .page-container {
+        margin-left: 0;
+        margin-right: 0;
+        border: none;
+        box-shadow: none;
+        padding: 0 3em 1em 3em;
+        border-radius: 0 0;
+    }
+    #emblam {
+        width: 300px;
+        height: 300px;
+    }
+    #about-us-image {
+        margin: 0;
+    }
+    }
