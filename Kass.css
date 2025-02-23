@@ -156,7 +156,7 @@ body p {
     }
     .title-right {
         
-        font-size: 2.1em;
+        font-size: 4em;
         background-color: transparent;
         width: 100%;
         text-align: center;
@@ -168,7 +168,7 @@ body p {
 .nav {
     justify-content: space-around;
     flex-direction: column;
-    font-size: 3em;
+    font-size: 1.5em;
     margin-top: 0;
     padding: 2px 0 0 0;
 }
