@@ -179,9 +179,11 @@ body p {
         border-radius: 0 0;
         width: 100%;
         text-align: center;
-        margin: 0;
+        margin: 0 0 6px 0;
     }
-
+    .nav-item3 {
+        border: 0 0 12px 0 solid #F1D3B2;
+    }
     .nav li:hover {
         background-color: transparent;
     }
