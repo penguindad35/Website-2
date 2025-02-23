@@ -136,7 +136,9 @@ body p {
 
 
 @media only screen and (max-width:64em) {
-    
+    html{
+        margin:0;
+    }
     .title {
         display: flex;
         flex-direction: column;
@@ -165,33 +167,34 @@ body p {
         justify-content: space-around;
         flex-direction: column;
         font-size: 1.5em;
-        
+        margin-top: 0;
     }
     .nav-item {
-        border: 2px solid black;
-        box-shadow: none;
+        border: 2px solid #F1D3B2;
+        box-shadow: 4px 4px #F1D3B2;
         padding: .5em;
         border-radius: 0 0;
         width: 100%;
         text-align: center;
+        margin:0;
     }
 
     .nav li:hover {
         background-color: transparent;
     }
     .page-container {
-        margin-left: 0;
-        margin-right: 0;
+        margin: 0;
         border: none;
         box-shadow: none;
-        padding: 0 3em 1em 3em;
+        padding: 0;
         border-radius: 0 0;
+        width: 100%
     }
     #emblam {
         width: 300px;
         height: 300px;
     }
     #about-us-image {
-        margin: 0;
+        
     }
     }
