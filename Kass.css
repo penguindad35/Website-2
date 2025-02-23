@@ -137,8 +137,10 @@ body p {
 
 @media only screen and (max-width:64em) {
     html{
-        margin:0;
+        
+       
     }
+    
     .title {
         display: flex;
         flex-direction: column;
@@ -163,20 +165,21 @@ body p {
     .title-left {
         width: 100%;
     }
-    .nav {
-        justify-content: space-around;
-        flex-direction: column;
-        font-size: 1.5em;
-        margin-top: 0;
-    }
+.nav {
+    justify-content: space-around;
+    flex-direction: column;
+    font-size: 1.5em;
+    margin-top: 0;
+    padding: 2px 0 0 0;
+}
     .nav-item {
-        border: 2px solid #F1D3B2;
-        box-shadow: 4px 4px #F1D3B2;
-        padding: .5em;
+        border: 6px solid #F1D3B2;
+        
+        padding: .8em;
         border-radius: 0 0;
         width: 100%;
         text-align: center;
-        margin:0;
+        margin: 0;
     }
 
     .nav li:hover {
@@ -198,6 +201,11 @@ body p {
         
     }
     main{
-    padding: 1em;
-}
+        padding: 1em;
+    }
+    html, body, header, nav {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
     }
