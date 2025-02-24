@@ -27,7 +27,7 @@ html {
     font-size: 5em;
 }
 #emblam {
-    background-image: url(emblam.png);
+    background-image: url(emblam.jpg);
     background-repeat: no-repeat;
     aspect-ratio: 1/1;
     background-size: 100% 100%;
@@ -102,15 +102,64 @@ body p {
     box-shadow: #F1D3B2 6px 6px;
     border-radius: 20px 20px;
     margin: 2em;
+   max-width: 300px;
 }
-#product-placeholder img{
-    background-image: url(product-placeholder.png);
+#product-placeholder1 {
+    background-image: url(Tallow_lip_balm.jpg);
     background-repeat: no-repeat;
+    aspect-ratio: 3/4;
+    width: 250px;
+   height: 250px;
+    background-size: 100% 100%;
+    border-radius: 20px 20px;
+}
+#product-placeholder2 {
+    background-image: url(Whipped_Tallow.jpg);
+    background-repeat: no-repeat;
+    aspect-ratio: 3/4;
     width: 250px;
     height: 250px;
     background-size: 100% 100%;
     border-radius: 20px 20px;
 }
+#product-placeholder3 {
+    background-image: url(Tighten_&_Brighten_Tallow.jpg);
+    background-repeat: no-repeat;
+    aspect-ratio: 3/4;
+    width: 250px;
+    height: 250px;
+    background-size: 100% 100%;
+    border-radius: 20px 20px;
+}
+#product-placeholder4 {
+    background-image: url(Lightweight_tallow_lotion.jpg);
+    background-repeat: no-repeat;
+    aspect-ratio: 3/4;
+    width: 250px;
+    height: 250px;
+    background-size: 100% 100%;
+    border-radius: 20px 20px;
+}
+#product-placeholder5 {
+    background-image: url(BareSkin_Relief.jpg);
+    background-repeat: no-repeat;
+    aspect-ratio: 3/4;
+    width: 250px;
+    height: 250px;
+    background-size: 100% 100%;
+    border-radius: 20px 20px;
+}
+#product-placeholder6 {
+    background-image: url(I’M_AWAKE.jpg);
+    background-repeat: no-repeat;
+    aspect-ratio: 3/4;
+    width: 250px;
+    height: 250px;
+    background-size: 100% 100%;
+    border-radius: 20px 20px;
+}
+
+
 .product-item a {
     text-decoration: none;
 }
@@ -123,7 +172,7 @@ body p {
 
 
 #about-us-image {
-    background-image: url(about-us-image.png);
+    background-image: url(about-us.jpg);
     background-repeat: no-repeat;
     aspect-ratio: 1/1;
     background-size: 100% 100%;
