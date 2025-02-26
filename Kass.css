@@ -313,4 +313,7 @@ body p {
         padding: 0;
         border: 0;
     }
+    iframe {
+    width: 23em;
+}
     }
